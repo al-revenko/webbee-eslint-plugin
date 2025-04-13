@@ -35,19 +35,5 @@ module.exports = {
         }],
       },
     },
-    // Components
-    {
-      files: ['src/**/*.vue', 'src/**/*.tsx', 'src/**/*.jsx'],
-      rules: {
-        'unicorn/filename-case': [
-          'error',
-          {
-            cases: {
-              pascalCase: true,
-            },
-          },
-        ],
-      },
-    },
   ],
 };

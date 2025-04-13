@@ -18,12 +18,11 @@ $ npm i --save-dev @web-bee-ru/eslint-plugin
 - eslint-plugin-prettier
 - eslint-plugin-react
 - eslint-plugin-react-hooks
-- eslint-plugin-unicorn
 - eslint-plugin-vue
 
 ``` bash
 # install base devDependencies
-$ npm i --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-import-resolver-alias eslint-import-resolver-node eslint-plugin-import eslint-plugin-prettier eslint-plugin-unicorn
+$ npm i --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-import-resolver-alias eslint-import-resolver-node eslint-plugin-import eslint-plugin-prettier
 ```
 
 ## Using

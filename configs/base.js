@@ -12,7 +12,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint/eslint-plugin', 'prettier', 'unicorn'],
+  plugins: ['@typescript-eslint/eslint-plugin', 'prettier'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -92,64 +92,5 @@ module.exports = {
     'import/namespace': ['off'],
   },
   overrides: [
-    // TS/JS
-    {
-      files: ['src/**/*.ts', 'src/**/*.js'],
-      excludedFiles: ['src/types/**/*.ts', 'src/types/**/*.js'],
-      rules: {
-        'unicorn/filename-case': [
-          'error',
-          {
-            cases: {
-              camelCase: true,
-              pascalCase: true,
-            },
-          },
-        ],
-      },
-    },
-    // TS Types/Enums/Constants
-    {
-      files: ['src/types/**/*.ts', 'src/constants/**/*.ts'],
-      excludedFiles: ['src/types/**/*.d.ts', 'src/types/generated/**/*.ts'],
-      rules: {
-        'unicorn/filename-case': [
-          'error',
-          {
-            cases: {
-              pascalCase: true,
-            },
-          },
-        ],
-      },
-    },
-    // Styles (css/scss/sass/less/stylus)
-    {
-      files: ['src/**/*.css', 'src/**/*.scss', 'src/**/*.sass', 'src/**/*.less', 'src/**/*.stylus'],
-      rules: {
-        'unicorn/filename-case': [
-          'error',
-          {
-            cases: {
-              kebabCase: true,
-            },
-          },
-        ],
-      },
-    },
-    // @types
-    {
-      files: ['@types/**/*.d.ts'],
-      rules: {
-        'unicorn/filename-case': [
-          'error',
-          {
-            cases: {
-              kebabCase: true,
-            },
-          },
-        ],
-      },
-    },
   ],
 };
