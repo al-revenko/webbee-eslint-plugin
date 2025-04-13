@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.4](https://github.com/web-bee-ru/eslint-plugin/compare/v0.6.3...v0.6.4) (2025-04-13)
+
+
+### Bug Fixes
+
+* выпилил unicorn плагин ([52495ea](https://github.com/web-bee-ru/eslint-plugin/commit/52495eaaad123ea9a699249a29bf676362ab008b))
+
 ### [0.6.3](https://github.com/web-bee-ru/eslint-plugin/compare/v0.6.2...v0.6.3) (2022-08-01)
 
 
