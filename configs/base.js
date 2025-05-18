@@ -1,12 +1,12 @@
-const { defineConfig } = require('eslint/config');
-const globals = require('globals');
-const eslint = require('@eslint/js');
-const tsEslint = require('typescript-eslint');
-const stylistic = require('@stylistic/eslint-plugin');
-const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
-const importPlugin = require('eslint-plugin-import');
+import { defineConfig } from 'eslint/config';
+import globals from 'globals';
+import eslint from '@eslint/js';
+import tsEslint from 'typescript-eslint';
+import stylistic from '@stylistic/eslint-plugin';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import importPlugin from 'eslint-plugin-import';
 
-module.exports = defineConfig([
+export default defineConfig([
   {
     languageOptions: {
       ecmaVersion: 2020,

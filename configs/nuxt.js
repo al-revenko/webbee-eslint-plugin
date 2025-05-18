@@ -1,7 +1,7 @@
-const { defineConfig } = require('eslint/config');
-const vue = require('./vue');
+import { defineConfig } from 'eslint/config';
+import vue from './vue';
 
-module.exports = defineConfig([
+export default defineConfig([
   {
     extends: [vue],
     settings: {

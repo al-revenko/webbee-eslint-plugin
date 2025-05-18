@@ -1,7 +1,7 @@
-const { defineConfig } = require('eslint/config');
-const react = require('./react');
+import { defineConfig } from 'eslint/config';
+import react from './react';
 
-module.exports = defineConfig([
+export default defineConfig([
   {
     extends: [react],
   },

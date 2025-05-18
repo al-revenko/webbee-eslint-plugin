@@ -1,9 +1,9 @@
-const { defineConfig } = require('eslint/config');
-const base = require('./base');
-const reactPlugin = require('eslint-plugin-react');
-const reactHooksPlugin = require('eslint-plugin-react-hooks');
+import { defineConfig } from 'eslint/config';
+import base from './base';
+import reactPlugin from 'eslint-plugin-react';
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
-module.exports = defineConfig([
+export default defineConfig([
   {
     plugins: {
       'react': reactPlugin,
