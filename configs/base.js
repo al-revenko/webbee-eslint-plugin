@@ -79,7 +79,9 @@ export default defineConfig([
       }],
       '@stylistic/no-trailing-spaces': ['error'],
       '@stylistic/quote-props': ['error', 'consistent-as-needed'],
-      '@stylistic/quotes': ['error', 'single'],
+      '@stylistic/quotes': ['error', 'single', {
+        avoidEscape: true,
+      }],
       '@stylistic/semi': ['error', 'always'],
     },
   }
